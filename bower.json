@@ -6,6 +6,7 @@
   "authors": [
     "rkcoder <javawjw@163.com>"
   ],
+  "private": true,
   "license": "ISC",
   "keywords": [
     "select",
