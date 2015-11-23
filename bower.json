@@ -1,5 +1,6 @@
 {
   "name": "select-group",
+  "version": "1.0.0",
   "description": "select下拉框级联组件",
   "main": "src/selectGroup.js",
   "authors": [
@@ -12,7 +13,15 @@
   ],
   "homepage": "https://github.com/RK-WJW/selectGroup",
   "moduleType": [
-    "amd"
+    "AMD"
+  ],
+  "ignore": [
+    "**/.*",
+    "src/lib",
+    "test",
+    "*.md",
+    "LICENSE",
+    "package.json"
   ],
   "directory": "lib",
   "dependencies": {
