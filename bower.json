@@ -15,15 +15,6 @@
     "amd"
   ],
   "directory": "lib",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "app/bower_components",
-    "src/lib",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "jquery": "~1.11.1",
     "requirejs": "~2.1.22"
