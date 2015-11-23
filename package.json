@@ -2,7 +2,7 @@
   "name": "select-group",
   "version": "1.0.0",
   "description": "select下拉框级联组件",
-  "main": "src/selectGroup.js",
+  "main": "selectGroup.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -38,14 +38,14 @@
 		</select>
 	</div>
 	
-	<script src="../src/lib/requirejs/require.js"></script>
+	<script src="../lib/requirejs/require.js"></script>
 	<script>
 	(function(window, undefined) {
 		// config
 		require.config({
 			paths: {
-				'jquery': '../src/lib/jquery/dist/jquery',
-				'selectGroup': '../src/selectGroup'
+				'jquery': '../lib/jquery/dist/jquery',
+				'selectGroup': '../selectGroup'
 			}
 		})
 		require(['jquery', 'selectGroup'], function($, $selectGroup) {
