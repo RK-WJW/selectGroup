@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>select group example</title>
+</head>
+<body>
+	<div class="demo" id="demo">
+		<select name="cate-1" role="select-group" group-index=1>
+			<option value="1">测试1</option>
+			<option value="2">测试2</option>
+			<option value="3">测试3</option>
+		</select>
+		<select name="cate-2" role="select-group" group-index=2>
+			<option value="">请选择</option>
+		</select>
+		<select name="cate-3" role="select-group" group-index=3 final>
+			<option value="">请选择</option>
+		</select>
+	</div>
+	<div class="demo" id="demo2">
+		<select name="test" role="test-selgroup" use-api="getOptions.json?t=2" group-index=1>
+			<option value="1">测试1</option>
+			<option value="2">测试2</option>
+			<option value="3">测试3</option>
+		</select>
+		<select name="testq" role="test-selgroup" use-api="getOptions.json?t=3" group-index=2>
+			<option valuteste="">请选择</option>
+		</select>
+		<select name="testw" role="test-selgroup" use-api="getOptions.json?t=4" group-index=3>
+			<option valuteste="">请选择</option>
+		</select>
+		<select name="teste" role="test-selgroup" use-api="getOptions.json?t=5" group-index=4>
+			<option valuteste="">请选择</option>
+		</select>
+		<select name="testr" role="test-selgroup" group-index=5 final>
+			<option value="">请选择</option>
+		</select>
+	</div>
+	
+	<script src="../src/lib/requirejs/require.js"></script>
+	<script>
+	(function(window, undefined) {
+		// config
+		require.config({
+			paths: {
+				'jquery': '../src/lib/jquery/dist/jquery',
+				'selectGroup': '../src/selectGroup'
+			}
+		})
+		require(['jquery', 'selectGroup'], function($, $selectGroup) {
+			// 级联选择框
+			// 一个指定接口，固定参数
+			var selectGroup = $selectGroup({
+				group: 'select-group',
+				node: '#demo',//或$('#demo')
+				api: 'getOptions.json?t=1',
+				postData: {
+					type: 'demo'
+				},
+				keyName: 'cate_id'
+			});
+			// 针对需要多个不同接口，不同参数
+			var selectGroup_test = $selectGroup({
+				group: 'test-selgroup',
+				node: $('#demo2'),
+				isUseName: 1,
+				isNeedParents: 1,
+				postData: {
+					type: 'demo2'
+				}
+			});
+		});
+	})(window);
+	</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{   
+	"status":10000,
+    "msg":"成功",
+    "data": [
+        {
+            "value": "a1",
+            "text": "a测试1"
+        },
+        {
+            "value": "a2",
+            "text": "a测试2"
+        },
+        {
+            "value": "a3",
+            "text": "a测试3"
+        },
+        {
+            "value": "a4",
+            "text": "a测试4"
+        }
+    ]
+}

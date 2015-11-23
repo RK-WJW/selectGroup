@@ -1,0 +1,32 @@
+{
+  "name": "select-group",
+  "version": "1.0.0",
+  "description": "select下拉框级联组件",
+  "main": "src/selectGroup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": [
+    {
+      "name": "rkcoder",
+      "email": "javawjw@163.com"
+    }
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RK-WJW/selectGroup.git"
+  },
+  "keywords": [
+    "select",
+    "group"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "requirejs": "~2.1.22"
+  },
+  "bugs": {
+    "url": "https://github.com/RK-WJW/selectGroup/issues"
+  },
+  "homepage": "https://github.com/RK-WJW/selectGroup#readme"
+}

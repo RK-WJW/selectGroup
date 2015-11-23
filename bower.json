@@ -1,0 +1,31 @@
+{
+  "name": "select-group",
+  "description": "select下拉框级联组件",
+  "main": "src/selectGroup.js",
+  "authors": [
+    "rkcoder <javawjw@163.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "select",
+    "group"
+  ],
+  "homepage": "https://github.com/RK-WJW/selectGroup",
+  "moduleType": [
+    "amd"
+  ],
+  "directory": "lib",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "requirejs": "~2.1.22"
+  }
+}
