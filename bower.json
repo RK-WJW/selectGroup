@@ -1,6 +1,6 @@
 {
   "name": "select-group",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "select下拉框级联组件",
   "main": "src/selectGroup.js",
   "authors": [
@@ -23,7 +23,7 @@
     "LICENSE",
     "package.json"
   ],
-  "directory": "lib",
+  "directory": "src",
   "dependencies": {
     "jquery": "~1.11.1",
     "requirejs": "~2.1.22"
