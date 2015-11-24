@@ -1,6 +1,6 @@
 define(['jquery'], function ($){
 	/* 级联下拉列表组件, 依赖jQ
-	 * author：wangjiangwei (wangjiangwei@didichuxing.com, javawjw@163.com)
+	 * author：rkcoder (javawjw@163.com)
 	 * date: 2015-11-10
 	 * 用法：
 	 * 	select结构要求 <select name="" role="select-group" group-index="i" final>
