@@ -69,7 +69,7 @@ define(['jquery'], function ($){
 				that.clearSelect(index + 1);
 				// 是否存在缓存，存在直接提取缓存渲染并返回
 				if(cache[cacheKey]){
-					that.render(cache[cacheKey]);
+					that.render(index + 1, cache[cacheKey]);
 					return;
 				}
 				// 设置需要提交的数据

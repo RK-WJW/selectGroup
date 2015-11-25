@@ -1,6 +1,6 @@
 {
   "name": "select-group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "select下拉框级联组件",
   "main": "selectGroup.js",
   "authors": [
